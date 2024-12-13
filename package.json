@@ -1,0 +1,28 @@
+{
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "name": "api_manager",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "test": "tests"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "elasticsearch": "^16.7.3",
+        "express": "^4.21.2",
+        "mongoose": "^8.8.4",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    }
+}
